@@ -21,9 +21,9 @@ const contactSchema = z.object({
 type ContactFormValues = z.infer<typeof contactSchema>;
 
 const contactInfo = [
-  { icon: MapPin, label: "Visit Us", value: "Business Bay, Dubai, UAE" },
+  { icon: MapPin, label: "Visit Us", value: "Dubai, UAE" },
   { icon: Phone, label: "Call Us", value: "+971 4 123 4567" },
-  { icon: Mail, label: "Email Us", value: "hello@dizidigital.ae" },
+  { icon: Mail, label: "Email Us", value: "hello@nexaidigital.ae" },
 ];
 
 const Contact = () => {
@@ -75,14 +75,14 @@ const Contact = () => {
                   <FormField control={form.control} name="name" render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-white/70">Full Name</FormLabel>
-                      <FormControl><Input placeholder="John Doe" className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-[hsl(262,80%,55%)] transition-colors" {...field} /></FormControl>
+                      <FormControl><Input placeholder="Your name" className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-[hsl(262,80%,55%)] transition-colors" {...field} /></FormControl>
                       <FormMessage />
                     </FormItem>
                   )} />
                   <FormField control={form.control} name="email" render={({ field }) => (
                     <FormItem>
                       <FormLabel className="text-white/70">Email</FormLabel>
-                      <FormControl><Input placeholder="john@company.com" className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-[hsl(262,80%,55%)] transition-colors" {...field} /></FormControl>
+                      <FormControl><Input placeholder="yourname@gmail.com" className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-[hsl(262,80%,55%)] transition-colors" {...field} /></FormControl>
                       <FormMessage />
                     </FormItem>
                   )} />

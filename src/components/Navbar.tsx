@@ -33,7 +33,7 @@ const Navbar = () => {
     >
       <nav className="container mx-auto flex items-center justify-between px-6 py-4">
         <a href="#home" className="text-xl font-bold text-white" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-          Dizi<span className="gradient-text"> Digital</span>
+          Nex-AI<span className="gradient-text"> Digital</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-8">
@@ -61,7 +61,14 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.4, delay: 0.8 }}
         >
-          <Button className="gradient-btn text-white border-0 hover:opacity-90 hover:scale-105 transition-all duration-300">
+          <Button className="px-8 py-6 text-base text-white rounded-xl
+bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500
+shadow-lg
+transition-all duration-300 ease-in-out
+hover:shadow-[0_0_40px_rgba(59,130,246,0.6)]
+hover:brightness-110
+hover:-translate-y-1"
+>
             Get Free Consultation
           </Button>
         </motion.a>

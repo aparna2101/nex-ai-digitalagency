@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import FAQ from "@/components/FAQ";
 
 const Index = () => {
   useScrollAnimation();
@@ -22,6 +23,7 @@ const Index = () => {
         <WhyChooseUs />
         <Portfolio />
         <Testimonials />
+        <FAQ />
         <Contact />
       </main>
       <Footer />

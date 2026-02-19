@@ -35,7 +35,7 @@ const About = () => {
             Your Growth Partner in the <span className="gradient-text">Digital Era</span>
           </h2>
           <p className="text-base sm:text-lg leading-relaxed" style={{ color: "hsl(220,10%,45%)" }}>
-            Dizi Digital Agency is a Dubai-based digital marketing agency focused on helping brands scale with data-driven strategies and measurable ROI. We combine creativity with performance marketing to deliver real business growth across the UAE and beyond.
+            Nex-AI Digital Agency is a Dubai-based digital marketing agency focused on helping brands scale with data-driven strategies and measurable ROI. We combine creativity with performance marketing to deliver real business growth across the UAE and beyond.
           </p>
         </motion.div>
 

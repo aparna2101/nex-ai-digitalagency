@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Company */}
           <div>
             <h3 className="text-lg font-bold text-white mb-4" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>
-              Dizi<span className="gradient-text"> Digital</span>
+              Nex-AI<span className="gradient-text"> Digital</span>
             </h3>
             <p className="text-sm text-white/50 leading-relaxed">
               A results-driven digital marketing agency in Dubai helping brands grow with SEO, PPC, social media, and web development.
@@ -57,16 +57,16 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Contact</h4>
             <ul className="space-y-2 text-sm text-white/50">
-              <li>Business Bay, Dubai, UAE</li>
+              <li>Dubai, UAE</li>
               <li>+971 4 123 4567</li>
-              <li>hello@dizidigital.ae</li>
+              <li>hello@nexaidigital.ae</li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-white/10 pt-6 text-center">
           <p className="text-xs text-white/30">
-            © 2026 Dizi Digital Agency. All Rights Reserved.
+            © 2026  Nex-AI Digital Agency. All Rights Reserved.
           </p>
         </div>
       </div>

@@ -6,7 +6,7 @@ const testimonials = [
     name: "Ahmed Al Maktoum",
     company: "Al Maktoum Properties",
     role: "CEO",
-    quote: "Dizi Digital Agency transformed our online presence completely. Within 6 months, our organic traffic increased by 320% and we saw a significant boost in qualified leads from Google.",
+    quote: "Nex-AI Digital Agency transformed our online presence completely. Within 6 months, our organic traffic increased by 320% and we saw a significant boost in qualified leads from Google.",
     rating: 5,
   },
   {
@@ -20,7 +20,7 @@ const testimonials = [
     name: "Omar Khalid",
     company: "Gulf Ventures Capital",
     role: "Managing Partner",
-    quote: "The ROI from our Google Ads campaigns managed by Dizi Digital has been outstanding. They reduced our cost per acquisition by 45% while increasing our conversion rate.",
+    quote: "The ROI from our Google Ads campaigns managed by Nex-AI Digital has been outstanding. They reduced our cost per acquisition by 45% while increasing our conversion rate.",
     rating: 5,
   },
 ];

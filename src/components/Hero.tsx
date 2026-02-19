@@ -1,6 +1,9 @@
 import { motion } from "framer-motion";
 import { ArrowRight, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ConsultationForm from "@/components/ConsultationForm";
+
+<ConsultationForm />
 
 const stats = [
   { value: "400+", label: "Clients Served" },
@@ -26,6 +29,31 @@ const Hero = () => {
         animate={{ scale: [1, 1.15, 1], opacity: [0.2, 0.4, 0.2] }}
         transition={{ duration: 10, repeat: Infinity, ease: "easeInOut", delay: 2 }}
       />
+{/* Premium Floating Bubbles */}
+{[...Array(8)].map((_, i) => (
+  <motion.div
+    key={i}
+    className="absolute rounded-full 
+    bg-gradient-to-r from-cyan-400/30 via-blue-500/30 to-purple-500/30
+    blur-xl"
+    style={{
+      width: `${Math.random() * 80 + 60}px`,   // Bigger size
+      height: `${Math.random() * 80 + 60}px`,
+      left: `${Math.random() * 100}%`,
+      top: `${Math.random() * 100}%`,
+    }}
+    animate={{
+      y: [0, -40, 0],
+      x: [0, 20, 0],
+      opacity: [0.4, 0.7, 0.4],
+    }}
+    transition={{
+      duration: 10 + Math.random() * 5,
+      repeat: Infinity,
+      ease: "easeInOut",
+    }}
+  />
+))}
 
       {/* Floating particles */}
       {[...Array(6)].map((_, i) => (
@@ -77,7 +105,14 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.8 }}
           >
             <a href="#contact">
-              <Button size="lg" className="gradient-btn text-white border-0 px-8 py-6 text-base hover:opacity-90 hover:scale-105 transition-all duration-300">
+              <Button size="lg" className="px-8 py-6 text-base text-white rounded-xl
+bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500
+shadow-lg
+transition-all duration-300 ease-in-out
+hover:shadow-[0_0_40px_rgba(59,130,246,0.6)]
+hover:brightness-110
+hover:-translate-y-1"
+>
                 Get Free Consultation <ArrowRight className="ml-2" size={18} />
               </Button>
             </a>
